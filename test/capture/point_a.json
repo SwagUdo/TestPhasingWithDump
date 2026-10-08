@@ -1,0 +1,56 @@
+{
+  "function": "ngx_http_wait_request_handler",
+  "original_pid": 39,
+  "pid": 39,
+  "rip": "0x00005555555cee08",
+  "rsp": "0x00007fffffffe040",
+  "rbp": "0x00007fffffffe090",
+  "fs_base": "0x00007ffff7cc0c40",
+  "gs_base": "0x0000000000000000",
+  "fs_tls": {
+    "offset": "0x28",
+    "address": "0x00007ffff7cc0c68",
+    "value": "0x318b485965c48d00"
+  },
+  "http_buffer": {
+    "address": "0x00005555556a0d00",
+    "capacity": 1024,
+    "received": 49,
+    "data_hex": "474554202f20485454502f312e310d0a486f73743a2066757a7a0d0a436f6e6e656374696f6e3a20636c6f73650d0a0d0a",
+    "data_text": "GET / HTTP/1.1\r\nHost: fuzz\r\nConnection: close\r\n\r\n"
+  },
+  "http_buffer_address": "0x00005555556a0d00",
+  "http_buffer_capacity": 1024,
+  "http_received": 49,
+  "http_request": "GET / HTTP/1.1\r\nHost: fuzz\r\nConnection: close\r\n\r\n",
+  "registers": {
+    "rax": "0x0000000000000031",
+    "rbx": "0x0000000000000000",
+    "rcx": "0x00007ffff7dd69d7",
+    "rdx": "0x0000000000000008",
+    "rsi": "0x00007fffffffd710",
+    "rdi": "0x0000000000000002",
+    "rbp": "0x00007fffffffe090",
+    "rsp": "0x00007fffffffe040",
+    "r8": "0x0000000000000000",
+    "r9": "0x00007ffff7e3eed0",
+    "r10": "0x0000000000000000",
+    "r11": "0x0000000000000246",
+    "r12": "0x00007fffffffe518",
+    "r13": "0x000055555556d477",
+    "r14": "0x000055555566e908",
+    "r15": "0x00007ffff7ffd040",
+    "rip": "0x00005555555cee08",
+    "eflags": "0x0000000000000202"
+  },
+  "memory_mappings_total": 42,
+  "environment": {
+    "GLIBC_TUNABLES": "glibc.cpu.hwcaps=-AVX2,-AVX_Fast_Unaligned_Load"
+  },
+  "memory_dump": {
+    "mappings_total": 42,
+    "mappings_saved": 38,
+    "mappings_failed": 1,
+    "bytes_saved": 5533696
+  }
+}

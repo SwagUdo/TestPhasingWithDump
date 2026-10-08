@@ -1,0 +1,8 @@
+# environment variables:
+AFL_DEBUG=1
+AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES=1
+AFL_KILL_SIGNAL=9
+AFL_PATH=/opt/AFLplusplus
+AFL_SKIP_CPUFREQ=1
+# command line:
+'/opt/AFLplusplus/afl-fuzz' '-U' '-m' 'none' '-t' '5000+' '-V' '30' '-i' '/work/fuzz_input' '-o' '/work/fuzz_output' '--' 'python3' '/work/fuzz_dump.py' '@@'

@@ -1,0 +1,9 @@
+{
+  "point_a_captured": true,
+  "point_b_captured": true,
+  "http_connected": true,
+  "http_error": null,
+  "environment": {
+    "GLIBC_TUNABLES": "glibc.cpu.hwcaps=-AVX2,-AVX_Fast_Unaligned_Load"
+  }
+}

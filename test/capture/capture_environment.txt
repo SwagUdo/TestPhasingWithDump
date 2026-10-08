@@ -1,0 +1,1 @@
+GLIBC_TUNABLES = glibc.cpu.hwcaps=-AVX2,-AVX_Fast_Unaligned_Load

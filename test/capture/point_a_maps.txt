@@ -1,0 +1,42 @@
+555555554000-55555556c000 r--p 00000000 08:40 281753                     /usr/sbin/nginx
+55555556c000-55555564b000 r-xp 00018000 08:40 281753                     /usr/sbin/nginx
+55555564b000-55555566d000 r--p 000f7000 08:40 281753                     /usr/sbin/nginx
+55555566e000-55555566f000 r--p 00119000 08:40 281753                     /usr/sbin/nginx
+55555566f000-555555681000 rw-p 0011a000 08:40 281753                     /usr/sbin/nginx
+555555681000-5555556a0000 rw-p 00000000 00:00 0                          [heap]
+5555556a0000-555555711000 rw-p 00000000 00:00 0                          [heap]
+7ffff7c89000-7ffff7cc2000 rw-p 00000000 00:00 0 
+7ffff7cc2000-7ffff7cea000 r--p 00000000 08:40 233359                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffff7cea000-7ffff7e7f000 r-xp 00028000 08:40 233359                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffff7e7f000-7ffff7ed7000 r--p 001bd000 08:40 233359                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffff7ed7000-7ffff7ed8000 ---p 00215000 08:40 233359                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffff7ed8000-7ffff7edc000 r--p 00215000 08:40 233359                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffff7edc000-7ffff7ede000 rw-p 00219000 08:40 233359                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7ffff7ede000-7ffff7eeb000 rw-p 00000000 00:00 0 
+7ffff7eeb000-7ffff7eed000 r--p 00000000 08:40 6494                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7ffff7eed000-7ffff7efe000 r-xp 00002000 08:40 6494                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7ffff7efe000-7ffff7f04000 r--p 00013000 08:40 6494                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7ffff7f04000-7ffff7f05000 ---p 00019000 08:40 6494                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7ffff7f05000-7ffff7f06000 r--p 00019000 08:40 6494                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7ffff7f06000-7ffff7f07000 rw-p 0001a000 08:40 6494                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7ffff7f07000-7ffff7f09000 r--p 00000000 08:40 6451                       /usr/lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7ffff7f09000-7ffff7f5e000 r-xp 00002000 08:40 6451                       /usr/lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7ffff7f5e000-7ffff7f7b000 r--p 00057000 08:40 6451                       /usr/lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7ffff7f7b000-7ffff7f7c000 r--p 00073000 08:40 6451                       /usr/lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7ffff7f7c000-7ffff7f7d000 rw-p 00074000 08:40 6451                       /usr/lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7ffff7f7d000-7ffff7f7f000 r--p 00000000 08:40 6372                       /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7ffff7f7f000-7ffff7f93000 r-xp 00002000 08:40 6372                       /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7ffff7f93000-7ffff7fac000 r--p 00016000 08:40 6372                       /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7ffff7fac000-7ffff7fad000 ---p 0002f000 08:40 6372                       /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7ffff7fad000-7ffff7fae000 r--p 0002f000 08:40 6372                       /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7ffff7fae000-7ffff7faf000 rw-p 00030000 08:40 6372                       /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+7ffff7faf000-7ffff7fb7000 rw-p 00000000 00:00 0 
+7ffff7fbb000-7ffff7fbd000 rw-p 00000000 00:00 0 
+7ffff7fbd000-7ffff7fc1000 r--p 00000000 00:00 0                          [vvar]
+7ffff7fc1000-7ffff7fc3000 r-xp 00000000 00:00 0                          [vdso]
+7ffff7fc3000-7ffff7fc5000 r--p 00000000 08:40 233153                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7fc5000-7ffff7fef000 r-xp 00002000 08:40 233153                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7fef000-7ffff7ffa000 r--p 0002c000 08:40 233153                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7ffb000-7ffff7ffd000 r--p 00037000 08:40 233153                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffff7ffd000-7ffff7fff000 rw-p 00039000 08:40 233153                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]

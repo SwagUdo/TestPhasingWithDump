@@ -1,0 +1,4 @@
+GET / HTTP/2.1
+Hofuzz
+Connection: close
+

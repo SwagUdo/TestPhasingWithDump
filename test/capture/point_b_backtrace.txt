@@ -1,0 +1,15 @@
+#0  ngx_http_free_request (r=0x5555556aea60, rc=0) at src/http/ngx_http_request.c:3566
+#1  0x00005555555d4d73 in ngx_http_close_request (r=0x5555556aea60, rc=0) at src/http/ngx_http_request.c:3559
+#2  0x00005555555d2fdf in ngx_http_finalize_connection (r=0x5555556aea60) at src/http/ngx_http_request.c:2727
+#3  0x00005555555d2b36 in ngx_http_finalize_request (r=0x5555556aea60, rc=0) at src/http/ngx_http_request.c:2605
+#4  0x00005555555c2897 in ngx_http_core_rewrite_phase (r=0x5555556aea60, ph=0x5555556bc120) at src/http/ngx_http_core_module.c:935
+#5  0x00005555555c2692 in ngx_http_core_run_phases (r=0x5555556aea60) at src/http/ngx_http_core_module.c:868
+#6  0x00005555555c25fb in ngx_http_handler (r=0x5555556aea60) at src/http/ngx_http_core_module.c:851
+#7  0x00005555555d1ba0 in ngx_http_process_request (r=0x5555556aea60) at src/http/ngx_http_request.c:2060
+#8  0x00005555555d0737 in ngx_http_process_request_headers (rev=0x5555556c03e0) at src/http/ngx_http_request.c:1480
+#9  0x00005555555cfab1 in ngx_http_process_request_line (rev=0x5555556c03e0) at src/http/ngx_http_request.c:1151
+#10 0x00005555555cf145 in ngx_http_wait_request_handler (rev=0x5555556c03e0) at src/http/ngx_http_request.c:500
+#11 0x00005555555aa0e6 in ngx_event_process_posted (cycle=0x5555556a1a20, posted=0x555555683050 <ngx_posted_events>) at src/event/ngx_event_posted.c:34
+#12 0x00005555555a7559 in ngx_process_events_and_timers (cycle=0x5555556a1a20) at src/event/ngx_event.c:264
+#13 0x00005555555b6de8 in ngx_single_process_cycle (cycle=0x5555556a1a20) at src/os/unix/ngx_process_cycle.c:310
+#14 0x000055555556da4a in main (argc=3, argv=0x7fffffffe518) at src/core/nginx.c:379

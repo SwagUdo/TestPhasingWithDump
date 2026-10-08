@@ -1,0 +1,31 @@
+{
+  "point_a": {
+    "function": "ngx_http_wait_request_handler",
+    "rip": "0x00005555555cee08",
+    "rsp": "0x00007fffffffe040",
+    "rbp": "0x00007fffffffe090"
+  },
+  "point_b": {
+    "function": "ngx_http_free_request",
+    "rip": 93824992759192
+  },
+  "http_buffer": {
+    "address": "0x00005555556a0d00",
+    "capacity": 1024,
+    "captured_length": 49
+  },
+  "ngx_buf_t": {
+    "address": "0x00005555556a9f08",
+    "pos_offset": "0x00",
+    "last_offset": "0x08",
+    "start_offset": "0x20",
+    "end_offset": "0x28"
+  },
+  "model": {
+    "point_a_before_last_increment": true,
+    "resume_pos_equals_start": true,
+    "resume_last_equals_start": true,
+    "resume_rax_equals_recv_length": true
+  },
+  "snapshot": "/work/capture/qiling_point_a_fuzz.snapshot"
+}
